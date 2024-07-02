@@ -1,0 +1,48 @@
+/* src/App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #080808;
+  color: #fff;
+}
+
+.container {
+  padding: 10px 10%;
+}
+
+.subtitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: #333;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #555;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+      text-align: center;
+      margin-top: 20px;
+  }
+}
